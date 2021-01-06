@@ -1,0 +1,55 @@
+{
+  "name": "gatsby-remark-read-time-estimate",
+  "description": "Gatsby plugin to add an accurate measurement of read time",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore --ext .js --ext .jsx",
+    "fix-lint": "yarn lint -- --fix"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-transformer-plugin",
+    "medium-read-time",
+    "read-time-estimate"
+  ],
+  "author": {
+    "name": "Pritish Vaidya",
+    "email": "pritishvaidya94@gmail.com",
+    "url": "pritishvaidya.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritishvaidya/gatsby-remark-read-time-estimate.git"
+  },
+  "homepage": "https://github.com/pritishvaidya/gatsby-remark-read-time-estimate#readme",
+  "bugs": {
+    "url": "https://github.com/pritishvaidya/gatsby-remark-read-time-estimate/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "read-time-estimate": "^0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "babel-eslint": "^10.0.1",
+    "lint-staged": "^8.1.0",
+    "husky": "^1.3.1"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "**/test/*.js"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
