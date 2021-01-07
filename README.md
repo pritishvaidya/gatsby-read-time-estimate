@@ -1,4 +1,4 @@
-# gatsby-remark-read-time-estimate
+# gatsby-read-time-estimate
 
 ## Description
 Gatsby plugin to add an accurate measurement of read time using any content
