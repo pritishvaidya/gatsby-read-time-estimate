@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-remark-read-time-estimate",
-  "description": "Gatsby plugin to add an accurate measurement of read time",
+  "name": "gatsby-read-time-estimate",
+  "description": "Gatsby plugin to add an accurate measurement of read time using any content",
   "version": "0.0.1",
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore --ext .js --ext .jsx",
@@ -9,7 +9,6 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "gatsby-transformer-plugin",
     "medium-read-time",
     "read-time-estimate"
   ],
@@ -20,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pritishvaidya/gatsby-remark-read-time-estimate.git"
+    "url": "git+https://github.com/pritishvaidya/gatsby-read-time-estimate.git"
   },
-  "homepage": "https://github.com/pritishvaidya/gatsby-remark-read-time-estimate#readme",
+  "homepage": "https://github.com/pritishvaidya/gatsby-read-time-estimate#readme",
   "bugs": {
-    "url": "https://github.com/pritishvaidya/gatsby-remark-read-time-estimate/issues"
+    "url": "https://github.com/pritishvaidya/gatsby-read-time-estimate/issues"
   },
   "license": "MIT",
   "dependencies": {
